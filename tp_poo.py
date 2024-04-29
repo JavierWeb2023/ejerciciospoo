@@ -117,7 +117,7 @@ class CuentaAhorro(CuentaBancaria):
             self._saldo = monto + interes
             print(f'{self._nombre_titular}, la suma del total más los intereses serían: {self.obtener_saldo()}')
         else:
-            print("El monto a depositar debe ser mayor a 0")
+            print("El monto a calcular debe ser mayor a 0")
 
 
 def operacion1():
