@@ -115,7 +115,7 @@ class CuentaAhorro(CuentaBancaria):
         if monto > 0:
             interes = (monto * self._tasa_interes) * 5
             self._saldo = monto + interes
-            print(f'{self._nombre_titular}, la suma del total más los intereses serían: {self.obtener_saldo()}')
+            print(f'{self._nombre_titular}, la suma del monto ingresado más los intereses serían: {self.obtener_saldo()}')
         else:
             print("El monto a calcular debe ser mayor a 0")
 
